@@ -218,20 +218,34 @@ h1:before,h1:after {
     position : relative;
     top : 15px;
     left : 79px;
+    height:30px;
+    width:30px;
     border-radius: 50%;
     background-color : rgb(242, 69, 69);
     color : white;
     border:none;
 }
 
+#del:hover{
+    background-color : rgb(148, 38, 38);
+    color : white;
+}
+
 #plus{
     position : relative;
     top : 15px;
     left : 90px;
+    height:30px;
+    width:30px;
     border-radius : 50%;
     background-color : rgb(69, 138, 242);
     color : white;
     border:none;
+}
+
+#plus:hover{
+    background-color : rgb(43, 86, 150);
+    color : white;
 }
 
 .mkbtn{
