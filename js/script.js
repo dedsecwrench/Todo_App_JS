@@ -42,6 +42,7 @@ function createList(){
       div.setAttribute("class","cards");
       h2.setAttribute("class","resize")
       h2.style.overflowWrap = "break-word";
+      h2.style.cursor = "pointer";
       div.appendChild(h2);
       hr.setAttribute("class","hr_style");
       div.appendChild(hr);
