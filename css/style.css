@@ -245,6 +245,10 @@ h1:before,h1:after {
     top:7px;
     border:none;
 }
+.mkbtn:hover{
+    background-color: rgb(71, 108, 15) ;
+    color:white;
+}
 
 .li-id{
   font-size: 19px;
